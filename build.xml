@@ -5,7 +5,7 @@
 	<target name="main">
 		<sf:deploy 
 			username="${env.USERNAME}" 
-			password="${env.PASSWORD}" 
+			password="${env.PASSWORD} " 
 			serverurl="${env.SERVERURL}" 
 			deployRoot="${env.DEPLOYROOT}" 
 			checkOnly="${env.VALIDATEDEPLOYMENT}"
