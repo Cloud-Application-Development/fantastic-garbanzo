@@ -9,7 +9,7 @@
 			serverurl="${env.SERVERURL}" 
 			deployRoot="${env.DEPLOYROOT}" 
 			checkOnly="${env.VALIDATEDEPLOYMENT}"
-			testLevel="${env.TESTLEVEL}"
+			<!-- testLevel="${env.TESTLEVEL}" -->
 			rollbackOnError="${env.ROLLBACKONERROR}"/>
 	</target>
 </project>
