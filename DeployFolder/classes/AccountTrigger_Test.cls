@@ -1,7 +1,7 @@
 @isTest(seealldata=true)
 class AccountTrigger_Test
 {
-    //We test the forwardAccountsToAnotherSFDCOrg method in the AccountTriggerController
+    //We test the forwardAccountsToAnotherSFDCOrg method in the AccountTriggerController sdjkfjksdfsd
     static testMethod void testForwardAccountsToAnotherSFDCOrg()  
     {        
         //We get a record type id for us to test with.
