@@ -1,0 +1,12 @@
+<project name="DeployToSalesforce" default="main" basedir="." xmlns:sf="antlib:com.salesforce">
+  	<property environment="env"/>
+	<taskdef resource="com/salesforce/antlib.xml" classPath="./ant-salesforce.jar" uri="antlib:com.salesforce"/>
+
+	<target name="main">
+		<sf:deploy 
+			username="${env.USERNAME}" 
+			password="${env.PASSWORD}" 
+			serverurl="${env.SERVERURL}" 
+			deployRoot="${env.DEPLOYROOT}" 
+			checkOnly="${env.VALIDATEDEPLOYMENT}"
+			rollbackOnError="${env.ROLLBACKONERROR}"
