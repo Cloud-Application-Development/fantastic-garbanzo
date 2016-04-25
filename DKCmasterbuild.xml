@@ -5,7 +5,7 @@
 	<target name="main">
 		<sf:deploy 
 			username="apexcode@devry.com" 
-			password="${env.LEGACY}" 
+			password="${env.DKC}" 
 			serverurl="https://login.salesforce.com" 
 			deployRoot="DeployFolder" 
 			checkOnly="true"
