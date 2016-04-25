@@ -4,11 +4,9 @@
 
 	<target name="main">
 		<sf:deploy 
-			username="${env.USERNAME}" 
-			password="${env.PASSWORD}" 
-			serverurl="${env.SERVERURL}" 
-			deployRoot="${env.DEPLOYROOT}" 
-			checkOnly="${env.VALIDATEDEPLOYMENT}"
-			rollbackOnError="${env.ROLLBACKONERROR}"/>
-	</target>
-</project>
+			username="apexcode@legacy.devry.com" 
+			password="${env.LEGACY}" 
+			serverurl="https://login.salesforce.com" 
+			deployRoot="DeployFolder" 
+			checkOnly="true"
+			rollbackOnError="true"
