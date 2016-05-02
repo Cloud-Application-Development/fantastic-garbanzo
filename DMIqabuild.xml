@@ -5,7 +5,7 @@
 	<target name="main">
 		<sf:deploy 
 			username="apexcode@devrymedical.org.fullsbox" 
-			password="${env.LEGACY}" 
+			password="${env.DMI}" 
 			serverurl="https://test.salesforce.com" 
 			deployRoot="DeployFolder" 
 			checkOnly="true"
