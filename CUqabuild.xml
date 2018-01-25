@@ -1,0 +1,14 @@
+<project name="DeployToSalesforce" default="main" basedir="." xmlns:sf="antlib:com.salesforce">
+  	<property environment="env"/>
+	<taskdef resource="com/salesforce/antlib.xml" classPath="./ant-salesforce.jar" uri="antlib:com.salesforce"/>
+
+	<target name="main">
+		<sf:deploy 
+			username="apexcode@cu.adtalem.com.fullsbox" 
+			password="${env.CU}" 
+			serverurl="https://test.salesforce.com" 
+            maxPoll="2200" 
+            pollWaitMillis="5000" 
+			deployRoot="DeployFolder" 
+			checkOnly="true"
+			rollbackOnError="true"
