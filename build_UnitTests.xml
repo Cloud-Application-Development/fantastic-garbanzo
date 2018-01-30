@@ -7,6 +7,8 @@
 			username="${env.USERNAME}" 
 			password="${env.PASSWORD}" 
 			serverurl="${env.SERVERURL}" 
+            maxPoll="2200" 
+            pollWaitMillis="5000" 
 			deployRoot="${env.DEPLOYROOT}" 
 			checkOnly="${env.VALIDATEDEPLOYMENT}"
 			rollbackOnError="${env.ROLLBACKONERROR}"
