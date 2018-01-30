@@ -4,8 +4,8 @@
 
 	<target name="main">
 		<sf:deploy 
-			username="apexcode@legacy.devry.com.LegacyFSB" 
-			password="${env.LEGACY}" 
+			username="apexcode@cu.adtalem.com.fullsbox" 
+			password="${env.CU}" 
 			serverurl="https://test.salesforce.com" 
             maxPoll="2200" 
             pollWaitMillis="5000" 

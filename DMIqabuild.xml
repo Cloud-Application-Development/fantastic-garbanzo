@@ -7,6 +7,8 @@
 			username="apexcode@devrymedical.org.fullsbox" 
 			password="${env.DMI}" 
 			serverurl="https://test.salesforce.com" 
+            maxPoll="2200" 
+            pollWaitMillis="5000" 
 			deployRoot="DeployFolder" 
 			checkOnly="true"
 			rollbackOnError="true"

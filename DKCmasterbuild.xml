@@ -7,6 +7,8 @@
 			username="apexcode@devry.com" 
 			password="${env.DKC}" 
 			serverurl="https://login.salesforce.com" 
+            maxPoll="2200" 
+            pollWaitMillis="5000" 
 			deployRoot="DeployFolder" 
 			checkOnly="true"
 			rollbackOnError="true"
